@@ -58,12 +58,13 @@ The script writes tidy_Data to a file, and also returns it as a function call.
 
 Codebook:
 
-tidy_Data - a data frame of 68 columns 
-               - first two columns indicate subject and activity
-               - last 66 columns contain average measurement data for each mean or std measurement made.
-
-           - and 180 rows
-               - each row corresponds to one unique combination of subject and activity.  For instance,
-               - row 1 corresponds to subject 1, activity 1.  row 2 is subject 2, activity 2... and so forth.
-               - these rows cycle through all 30 subjects and 6 activities.  The final (180th) entry
-               - refers to subject 30, activity 6.  
+tidy_Data - a data frame of:
+              68 columns 
+                first two columns indicate subject and activity
+                last 66 columns contain average measurement data for each mean or std measurement made.
+                
+              and 180 rows
+                each row corresponds to one unique combination of subject and activity.  For instance,
+                row 1 corresponds to subject 1, activity 1.  row 2 is subject 2, activity 2... and so forth.
+                these rows cycle through all 30 subjects and 6 activities.  The final (180th) entry
+                refers to subject 30, activity 6.  
